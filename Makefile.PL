@@ -15,6 +15,13 @@ WriteMakefile(
     PREREQ_PM => {
         'Test::More' => 0,
     },
+    META_MERGE => {
+        resources => {
+            license     => 'http://dev.perl.org/licenses/',
+            bugtracker  => 'https://github.com/sherwind/RPC-Any-Interface-PSGI/issues',
+            repository  => 'https://github.com/sherwind/RPC-Any-Interface-PSGI.git',
+        },
+    },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'RPC-Any-Interface-PSGI-*' },
 );

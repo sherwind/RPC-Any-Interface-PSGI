@@ -1,6 +1,7 @@
 package RPC::Any::Interface::PSGI;
 
 use strict;
+use warnings;
 use 5.008001;
 our $VERSION = '0.01';
 
@@ -60,7 +61,7 @@ __END__
 
 =head1 NAME
 
-RPC::Any::Interface::PSGI - a PSGI interface for RPC::Any
+RPC::Any::Interface::PSGI - PSGI interface for RPC::Any
 
 =head1 SYNOPSIS
 
