@@ -14,6 +14,7 @@ WriteMakefile(
     PL_FILES            => {},
     PREREQ_PM => {
         'Test::More' => 0,
+        'RPC::Any'   => 0,
     },
     META_MERGE => {
         resources => {

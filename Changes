@@ -1,5 +1,8 @@
 Revision history for RPC-Any-Interface-PSGI
 
+0.02    Mon Aug  8 11:17:33 PHT 2011
+          - Require RPC::Any
+
 0.01    Mon Jul 25 11:30:05 PHT 2011
-        First version, released on an unsuspecting world.
+          - First version, released on an unsuspecting world.
 
