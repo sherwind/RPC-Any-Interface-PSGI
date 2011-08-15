@@ -3,7 +3,7 @@ package RPC::Any::Interface::PSGI;
 use strict;
 use warnings;
 use 5.008001;
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use Moose::Role;
 use HTTP::Request;
